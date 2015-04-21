@@ -201,7 +201,7 @@ namespace EXViewer.Test
 
             // generate BackgroundTextureHandle
             {
-                Bitmap bmp = new Bitmap(@"C:\Users\Administrator\Desktop\t.png");
+                var bmp = EXViewer.Test.Properties.Resources.t;
 
                 int handle;
                 GL.GenTextures(1, out handle);
